@@ -2,6 +2,9 @@
 The TextToTagGenerator model is a sequence-to-sequence transformer model trained to generate tags for a given input text. It is also most commons as the keywords extractors from any text or passage.</s>
 
 ![tags_model](https://github.com/wavesoumen/Tags_Generation/blob/main/images/tags_gen1.png)
+</s>
+
+
 Check the colab for [Tags_Generation](https://github.com/wavesoumen/Tags_Generation/blob/main/Tags_generation_main.ipynb)
 - ## Generating Tags from Text (T5_base Model):
 The model generates tags based on the input text by using a pretrained transformer model (`t5-base`) which is trained to generate human-readable text given a prompt.</s>
