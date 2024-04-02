@@ -2,6 +2,7 @@
 The TextToTagGenerator model is a sequence-to-sequence transformer model trained to generate tags for a given input text. It is also most commons as the keywords extractors from any text or passage.</s>
 
 ![tags_model](https://github.com/wavesoumen/Tags_Generation/blob/main/images/tags_gen1.png)
+Check the colab for [Tags_Generation](https://github.com/wavesoumen/Tags_Generation/blob/main/Tags_generation_main.ipynb)
 - ## Generating Tags from Text (T5_base Model):
 The model generates tags based on the input text by using a pretrained transformer model (`t5-base`) which is trained to generate human-readable text given a prompt.</s>
 
@@ -35,7 +36,7 @@ Output:
 ```
 [('humans', 3), ('think', 1), ('things', 1), ('technology', 1), ('science', 1), ('recognize', 1), ('process', 1), ('patterns', 1), ('machines', 1), ('large', 1), ('judge', 1), ('intelligence', 1), ('different', 1), ('decisions', 1), ('creating', 1), ('amounts', 1), ('Artificial', 1)]
 ```
-- ## Word-Wide Model:
+- ## Word-Wide Model: [word-wide_model](https://github.com/wavesoumen/Tags_Generation/blob/main/word-wise_extractor.py)
 This model extract the widely used keywords from the given text/passage. You can also change the number of how many words do you wants. In this example I have used 5 words.
 In this example, we are checking the frequency of words in a given text using the word-wide model. The output shows the keywords or key phrases that appear most frequently in the input text.</s>
 
